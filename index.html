@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./dist/output.css" rel="stylesheet">
+    <script src="./scripts/script.js" defer></script>
+    <script src="https://kit.fontawesome.com/2483017890.js" crossorigin="anonymous"></script>
+    <title>Keshav S</title>
+</head>
+
+<body class="dark overflow-x-hidden scroll-smooth antialiased" id="body">
+    <div id="cont" class="flex dark:bg-slate-900 dark:text-slate-50 w-screen min-h-screen bg-slate-50 flex-col gap-10">
+        <header class="p-4 flex max-w-4xl">
+            <span class="text-2xl font-mono">
+                &lt;Hello/&gt;
+            </span>
+            <img id="moon-light" class="h-8 cursor-pointer hidden" src="./images/moon (1).png" alt="moon-light"
+                onclick="toggleDark()" />
+            <img id="moon-dark" class="h-8 cursor-pointer hidden" src="./images/moon (2).png" alt="moon-dark"
+                onclick="toggleDark()" />
+        </header>
+        <main class="flex flex-col max-w-3xl mx-auto ">
+            <div class="flex flex-col gap-3 mt-5 items-center">
+                <p class="font-light">Greetings traveller !!</p>
+                <h1
+                    class="text-2xl  bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 p-2 rounded-lg bg-clip-text text-transparent">
+                    I'm
+                    Keshav S </h1>
+                <p class="text-lg font-light">
+                    Developer by
+                    day, Overthinker by night</p>
+            </div>
+            <div class="flex flex-col px-5 gap-5">
+                <h2 class="text-3xl text-cyan-400">about
+                    <span class="dark:text-white text-gray-800"> => </span>
+                    <span class="text-orange-300">{</span>
+                </h2>
+                <ul class="list-disc ml-5 leading-7">
+                    <li>Developer, CSE undergraduate from India.</l1>
+                    <li>Experience with developing websites and modern user interfaces</l1>
+                    <li>Most of the projects I built use <span class="italic text-blue-500">React</span> and other
+                        similar frontend
+                        frameworks/libraries.</li>
+                    <li>I use <span class="italic text-blue-500">NodeJs</span> + <span
+                            class="italic text-blue-500">express</span> as the server in most of my projects</l1>
+                    <li>I switch between <span class="italic text-blue-500">MySQL</span> and <span
+                            class="italic text-blue-500">MongoDb</span> as databases depending on the usecase.</l1>
+                </ul>
+                <p class="text-slate-400 font-medium">I'm aslo currently exploring the DevOps space and I somehow fell
+                    in love
+                    with the
+                    <span>Terminal<i
+                            class="cursor-pointer fa-solid fa-terminal text-sm ml-1 text-purple-200"></i></span>.
+                </p>
+                <span class="text-3xl text-orange-300">}</span>
+            </div>
+            <div class="flex flex-col px-5 gap-5">
+                <h2 class="text-3xl text-cyan-400">projects
+                    <span class="dark:text-white text-gray-800"> => </span>
+                    <span class="text-orange-300">{</span>
+                </h2>
+                <div class="flex justify-evenly gap-5">
+                    <div class="flex flex-col items-center gap-5">
+                        <a href="#"><img class="hover:scale-105 transition-all ease-linear delay-75"
+                                src="https://www.slntechnologies.com/wp-content/uploads/2017/08/ef3-placeholder-image.jpg"
+                                alt="project-1">
+                        </a>
+                        <div class="flex gap-4 flex-wrap text-sm items-center max-w-64 sm:flex-col">
+                            <span class="py-0.5 px-2 dark:bg-slate-700 bg-gray-300 rounded-sm text-xs \
+                            font-medium">React</span>
+                            <span
+                                class="py-0.5 px-2 dark:bg-slate-700 bg-gray-300 rounded-sm text-xs font-medium">NodeJs</span>
+                            <span class=" py-0.5 px-2 dark:bg-slate-700 bg-gray-300 rounded-sm text-xs
+                                font-medium"">Express</span>
+                            <span class=" py-0.5 px-2 dark:bg-slate-700 bg-gray-300 rounded-sm text-xs
+                                font-medium"">MongoDb</span>
+                        </div>
+                        <article class=" prose lg:prose-xl">
+                            <p class=" text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elExpedita
+                                assumenda velit, voluptatibus vitae aliquid dolorem labore odit dolores at,
+                                reiciendis
+                            </p>
+                        </article>
+                    </div>`
+                    <span class=" text-3xl text-orange-300">}</span>
+                </div>
+        </main>
+    </div>
+</body>
+
+</html>
